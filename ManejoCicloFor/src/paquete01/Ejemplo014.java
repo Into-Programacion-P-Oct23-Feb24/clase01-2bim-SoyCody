@@ -9,18 +9,20 @@ package paquete01;
  *
  * @author reroes
  */
-public class Ejemplo02 {
+public class Ejemplo014 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        for (int i = 1; i <= 10; i+=2) {
-            // i += 2 nos ayuda a aumentar el contador de dos en dos, este valor puede cambiar 
-            System.out.printf("%d\n", i);
+        int valores = 0;
+        for (int i = 1; i <= 10; i++) {
+            valores = valores + i;
         }
         
+        for (int i = 1; i < 11; i++) {
+            valores = valores + i;
+        }
+        System.out.printf("%s", valores);
     }
-    
 }
